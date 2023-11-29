@@ -6,7 +6,7 @@ import ContactForm from "./contactForm";
 import NavigationBar from './navigationBar'
 const Portfolio = () => {
   return (
-    <div className="bg_color">
+    <div className='bg_color'>
       <NavigationBar/>
       <HomePage />
       <About />

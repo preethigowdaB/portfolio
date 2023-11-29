@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-scroll";
+import logo from '../assets/img/logo.png'
 const NavigationBar = () => {
   const [menu, setMenu] = useState('home')
 
@@ -7,9 +8,7 @@ const NavigationBar = () => {
     <>
       <nav className="navbar navbar-expand-lg">
         <div className="container-lg ">
-          <a className="navbar-brand text-white" href="">
-            PREETHI
-          </a>
+            <img src={logo} alt="logo" height={40}/>
           <button
             className="navbar-toggler bg-white"
             type="button"
@@ -80,6 +79,7 @@ const NavigationBar = () => {
                   Contact
                 </Link>
               </li>
+              
             </ul>
           </div>
         </div>
