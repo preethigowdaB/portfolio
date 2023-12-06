@@ -67,16 +67,16 @@ const ContactForm = () => {
               +91 7204881223
             </a>
           </div>
-          <button className="btn_color px-3 py-2 rounded my-2 ">
+          {/* <button className="btn_color px-3 py-2 rounded my-2 ">
             <a
-              href="img/mycv.pdf"
-              download
+              href="/img/mycv.pdf"
+              download="mycv.pdf"
               style={{ textDecoration: "none", color: "white" }}
+              title="Download CV"
             >
-              {" "}
               Download CV
             </a>
-          </button>
+          </button> */}
         </div>
         <div className="col-md-6">
           <form name="submit-to-google-sheet">
@@ -114,7 +114,9 @@ const ContactForm = () => {
               Submit
             </button>
           </form>
-          {successMessage && <p className="color_green fs_20 fw_500">{successMessage}</p>}
+          {successMessage && (
+            <p className="color_green fs_20 fw_500">{successMessage}</p>
+          )}
         </div>
       </div>
     </div>

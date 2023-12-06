@@ -69,9 +69,17 @@ height: auto;
   background: red;
   border: none;
 }
+.navbar_fixed{
+  position:fixed;
+  top:0;
+}
+.ms_auto{
+  margin-left: auto !important;
+}
 ::placeholder{
   color: white;
 }
+
 @media screen and (min-width : 900px){
  .d_flex{
   display: flex;
