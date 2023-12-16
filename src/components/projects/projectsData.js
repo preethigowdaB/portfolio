@@ -4,10 +4,10 @@ import weather_forecast from "../../assets/img/weatherforecast.jpeg";
 import UI_design from '../../assets/img/responsive_ui_design.png';
 import QR_code from '../../assets/img/qr_code.jpeg.png';
 import material_ui from '../../assets/img/material UI.jpeg';
-
+import quizz_img from "../../assets/img/quiiz_img.png";
 let ProjectsData = [
   {
-    id: 6,
+    id: 7,
     image: material_ui,
     title: "Social media UI design",
     technology_used: [
@@ -23,14 +23,30 @@ let ProjectsData = [
       " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
   },
   {
-    id: 5,
-    image: QR_code,
-    title: "QR Code generator",
+    id: 6,
+    image: quizz_img,
+    title: "Quizz App",
     technology_used: [
       {
         tech1: "HTML",
         tech2: "CSS",
-        tech3: "BOOTSTRAP",
+        tech3: "Javascript",
+        tech4:"REACT JS"
+      },
+    ],
+    github_link: "https://github.com/preethigowdaB/quizz_app",
+    description:
+      " The Quiz App is a dynamic web application built with JavaScript, designed to engage users in an interactive and educational quiz experience. Users can test their knowledge across various topics through a series of questions presented in a user-friendly interface. ",
+  },
+  {
+    id: 6,
+    image: QR_code,
+    title: "QR code generator",
+    technology_used: [
+      {
+        tech1: "HTML",
+        tech2: "CSS",
+        tech3: "Javascript",
         tech4:"REACT JS"
       },
     ],
