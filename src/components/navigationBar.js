@@ -6,9 +6,9 @@ const NavigationBar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg  ">
+      <nav className="navbar navbar-expand-lg d-flex align-items-center ">
         <div className="container-lg  ">
-            <img src={logo} alt="logo" height={40}/>
+            <img src={logo} alt="logo" height={45} className="logo"/>
           <button
             className="navbar-toggler bg-white"
             type="button"
@@ -46,6 +46,7 @@ const NavigationBar = () => {
                   duration={500}
                   className={`nav-link mx-lg-3 ${menu==='about'? 'text-warning' :'text-white'}`}
                   onClick={()=>setMenu('about')}
+
                 >
                   About{menu==='about'?<hr/>:<></>}
                 </Link>
@@ -60,6 +61,7 @@ const NavigationBar = () => {
                   duration={500}
                   className={`nav-link mx-lg-3 ${menu==='project'? 'text-warning' :'text-white'}`}
                   onClick={()=>setMenu('project')}
+                  
                 >
                   Projects{menu==='project'?<hr/>:<></>}
                 </Link>

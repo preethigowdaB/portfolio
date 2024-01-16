@@ -5,11 +5,11 @@ const About = () => {
   return (
     <section id="about" className="mt-4">
       <div className="text-white text-center container">
-        <span className="fs_35 fw_500 fs_sm_25 color_green">About Me</span>
+        <span className="fs_35 fw_500 fs_sm_25  color_green slideBottom">About Me</span>
         <div className="row g-0 mb-4">
           <div className="col-lg-3 "></div>
           <div className="col-lg-6 ">
-            <p className="fs_sm_14">
+            <p className="fs_sm_14 slideLeft">
               <span className="fs_25">👋</span> Hello, I'm Preethi, a dedicated
               front-end developer passionate about creating immersive and
               seamless digital experiences.
@@ -17,11 +17,11 @@ const About = () => {
           </div>
           <div className="col-lg-3 "></div>
         </div>
-        <span className="fs_35 fw_500 fs_sm_25 color_green ">What I Do</span>
+        <span className="fs_35 fw_500 fs_sm_25  color_green slideBottom ">What I Do</span>
         <div className="row g-0 mb-4">
           <div className="col-lg-3 "></div>
           <div className="col-lg-6 ">
-            <p className="fs_sm_14">
+            <p className="fs_sm_14 slideLeft">
               <span className="fs_25">💻</span> I specialize in crafting
               responsive and user-friendly interfaces using technologies like
               HTML, CSS, and JavaScript. Good knowledge in popular libraries and
@@ -31,11 +31,11 @@ const About = () => {
           </div>
           <div className="col-lg-3 "></div>
         </div>
-        <span className="fs_35 fw_500 fs_sm_25 color_green">Let's Connect</span>
+        <span className="fs_35 fw_500 fs_sm_25  color_green slideBottom">Let's Connect</span>
         <div className="row g-0">
           <div className="col-lg-3 "></div>
           <div className="col-lg-6 ">
-            <p className="fs_sm_14">
+            <p className="fs_sm_14 slideLeft">
               <span className="fs_25">📬</span> I'm always open to new
               opportunities. Whether you're looking for a front end developer to
               join your team, need assistance with a project, feel free to reach

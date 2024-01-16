@@ -1,146 +1,242 @@
-*{
-  font-family: 'Poppins', sans-serif;
+* {
+  font-family: "Poppins", sans-serif;
   position: relative;
 }
 
-.fs_12{
+.fs_12 {
   font-size: 12px;
 }
-.fs_13{
+.fs_13 {
   font-size: 13px;
 }
-.fs_14{
+.fs_14 {
   font-size: 14px;
 }
 
-.fs_20{
+.fs_20 {
   font-size: 20px;
 }
-.fs_22{
+.fs_22 {
   font-size: 22px;
 }
-.fs_25{
+.fs_25 {
   font-size: 25px;
 }
-.fs_35{
+.fs_35 {
   font-size: 35px;
 }
-.fs_45{
+.fs_45 {
   font-size: 45px;
 }
-.fs_80{
+.fs_80 {
   font-size: 80px;
 }
-.fw_400{
+.fw_400 {
   font-weight: 400;
 }
-.fw_500{
+.fw_500 {
   font-weight: 500;
 }
-.fw_600{
+.fw_600 {
   font-weight: 600;
 }
-.fw_700{
+.fw_700 {
   font-weight: 700;
 }
 
-.bg_color{
-background: black;
-height: auto;
+.bg_color {
+  background: black;
+  height: auto;
 }
-.nav-item hr{
+
+.logo {
+  border-radius: 50%;
+  animation: slideleft 2s ease forwards;
+}
+
+.navbar-nav li {
+  animation: slideTop 2s ease forwards;
+  opacity: 0;
+}
+
+#home div h1 {
+  animation: slideRight 2s ease forwards;
+  animation-delay: 1s;
+
+  opacity: 0;
+}
+#home div span {
+  animation: slideTop 3s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+#home div p {
+  animation: slideBottom 3s ease forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
+
+.nav-item hr {
   border: none;
   width: 100%;
   height: 3px;
   border-radius: 10px;
-  background: yellow
+  background: yellow;
 }
 /* .navbar{
   position: sticky;
   top: 0;
+  background: transparent;
 } */
-.img{
+.img {
   object-fit: cover;
   height: fit-content;
 }
-.color_green{
+.color_green {
   color: rgb(199, 247, 103);
 }
-.color_blue{
+
+.slideBottom {
+  animation: slideBottom 4s ease backwards;
+  animation-delay: 6s;
+}
+.slideLeft {
+  animation: slideleft 2s ease backwards;
+  animation-delay: 6ss;
+}
+.color_blue {
   color: rgb(22, 22, 167);
 }
 
-.btn_color{
+.btn_color {
   background: red;
   border: none;
 }
-.navbar_fixed{
-  position:fixed;
-  top:0;
+.skills_card:hover {
+  animation: ZoomIn 2s ease forwards;
 }
-.ms_auto{
+.ms_auto {
   margin-left: auto !important;
 }
-::placeholder{
+::placeholder {
   color: white;
 }
+
 .auto_typing {
-  overflow: hidden; 
-  border-right: .15em solid orange; 
-  white-space: nowrap; 
+  overflow: hidden;
+  border-right: 0.15em solid orange;
+  white-space: nowrap;
   /* margin: 0 auto;  */
-  animation: 
-    typing 3.6s steps(40, end) infinite,
-    blink-caret .75s step-end infinite;
+  animation: typing 3.6s steps(20, end) infinite,
+    blink-caret 0.75s step-end infinite;
+  animation-delay: 1s;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
 }
 
-@media screen and (min-width : 900px){
- .d_flex{
-  display: flex;
- }
+@keyframes slideTop {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
   }
-@media screen and (max-width : 1200px){
-  .fs_lg_75{
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes ZoomIn {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+   100% {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+}
+@keyframes slideBottom {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideleft {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideRight {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .d_flex {
+    display: flex;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .fs_lg_75 {
     font-size: 75px;
   }
-  }
-@media screen and (max-width : 600px){
-  .fs_md_59{
+}
+@media screen and (max-width: 600px) {
+  .fs_md_59 {
     font-size: 59px;
   }
-  .fs_md_38{
+  .fs_md_38 {
     font-size: 38px;
   }
 }
-@media screen and (max-width : 475px){
-  .fs_sm_45{
+@media screen and (max-width: 475px) {
+  .fs_sm_45 {
     font-size: 45px;
   }
-  .fs_sm_30{
+  .fs_sm_30 {
     font-size: 30px;
   }
-  .fs_sm_20{
+  .fs_sm_20 {
     font-size: 20px;
   }
-  .fs_sm_25{
+  .fs_sm_25 {
     font-size: 25px;
   }
-  .fs_sm_14{
-    font-size: 14px; 
-   }
-  .fs_sm_12{
-    font-size: 12px; 
-   }
+  .fs_sm_14 {
+    font-size: 14px;
+  }
+  .fs_sm_12 {
+    font-size: 12px;
+  }
 }

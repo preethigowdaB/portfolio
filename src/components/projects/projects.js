@@ -30,8 +30,8 @@ const Projects = () => {
                           marginBottom: "20px",
                         }}
                       >
-                        <div style={{ flex: "1", marginRight: "10px" }} className="mt-3">
-                          <div class="card" style={{ width: "90%", height: "auto" }}>
+                        <div style={{ flex: "1", marginRight: "10px" }} className="mt-3 ">
+                          <div className="card" style={{ width: "90%", height: "auto" }}>
                             <img
                               src={item?.image}
                               className="card-img-top text-center"

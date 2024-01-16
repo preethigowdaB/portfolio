@@ -57,7 +57,7 @@ const Skills = () => {
         {Skills_data?.map((item) => (
           <>
             <div
-              className="col-md-4 col-sm-6 my-3 d-flex justify-content-center ms-5 ms-sm-0"
+              className="col-md-4 col-sm-6 my-3 d-flex justify-content-center ms-5 ms-sm-0 skills_card"
               style={{ maxWidth: "15rem" }}
             >
               <div>
