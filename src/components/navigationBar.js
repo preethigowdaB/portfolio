@@ -6,7 +6,7 @@ const NavigationBar = () => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-lg ">
+      <nav className="navbar navbar-expand-lg  ">
         <div className="container-lg  ">
             <img src={logo} alt="logo" height={40}/>
           <button
@@ -20,8 +20,8 @@ const NavigationBar = () => {
           >
             <span className="navbar-toggler-icon "></span>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul className="navbar-nav ms_auto fs_18">
+          <div className="collapse navbar-collapse " id="navbarNavDropdown" >
+            <ul className="navbar-nav ms_auto fs_18 " style={{cursor:"pointer"}}>
               <li className="nav-item"  >
                 <Link
                   activeClass="active"

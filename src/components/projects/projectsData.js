@@ -19,6 +19,7 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/react_with_material_ui",
+    demo:"",
     description:
       " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
   },
@@ -35,11 +36,12 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/quizz_app",
+    demo:"https://quizz-app-gold.vercel.app/",
     description:
       " The Quiz App is a dynamic web application built with JavaScript, designed to engage users in an interactive and educational quiz experience. Users can test their knowledge across various topics through a series of questions presented in a user-friendly interface. ",
   },
   {
-    id: 6,
+    id: 5,
     image: QR_code,
     title: "QR code generator",
     technology_used: [
@@ -51,6 +53,7 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/qr_code_generator",
+    demo:"https://qr-code-generator-plum-pi.vercel.app/",
     description:
       " The QR Code Generator project is a web application developed using React.js that allows users to create QR codes easily. QR codes are two-dimensional barcodes that store data and can be quickly scanned using a QR code reader or a smartphone camera. This project provides a user-friendly interface for generating QR codes with custom information.",
   },
@@ -66,6 +69,7 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/responsive_web_designs",
+    demo:"https://responsive-design-iota.vercel.app/",
     description:
       " I developed a responsive web design that fluidly adjusts to different screen sizes. This includes optimizing layout, typography, and interactive elements for both small and large screens.",
   },
@@ -98,6 +102,7 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/CRUD_Operations",
+    demo:"",
     description:
       "The Comprehensive CRUD Operations Web Application is designed to provide users with a robust platform for managing a dynamic collection of items. The application facilitates Create, Read, Update, and Delete operations, empowering users to interact seamlessly with their data. From a user-friendly interface to advanced features like  responsiveness, this project aims to deliver a comprehensive solution for diverse data management needs.",
   },
@@ -113,6 +118,7 @@ let ProjectsData = [
       },
     ],
     github_link: "https://github.com/preethigowdaB/responsive_ui_designs",
+    demo:"https://responsive-ui-designs.vercel.app/",
     description:
       " I developed a responsive web design that fluidly adjusts to different screen sizes. This includes optimizing layout, typography, and interactive elements for both small and large screens.",
   },

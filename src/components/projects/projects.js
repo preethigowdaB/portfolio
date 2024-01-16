@@ -19,7 +19,7 @@ const Projects = () => {
 
   return (
     <div className="container mt-5 text-white" id="project">
-      <h2 className="color_green">Projects :</h2>
+      <h2 className="color_green ">Projects :</h2>
       <div>
         {currentProjects.map((item, index) => (
                       <div
@@ -71,6 +71,15 @@ const Projects = () => {
                            <span>  <FaGithub size={15} color="white " /></span>   Github Link
                             </a>
                           </div>
+                          {/* <div className="my-4 py-2">
+                            <a
+                              href={item?.demo}
+                              className="text-white px-md-4 px-3 py-2 border-0 bg-warning rounded fs_14 "
+                              style={{ textDecoration: "none" }}
+                            >
+                           <span>  <FaGithub size={15} color="white " /></span>  Demo
+                            </a>
+                          </div> */}
                         </div>
                       </div>
         ))}

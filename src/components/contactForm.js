@@ -46,7 +46,7 @@ const ContactForm = () => {
     <div className="container py-5" id="contact">
       <div className="row g-0">
         <div className="col-md-6">
-          <h1 className="color_green">Contact me</h1>
+          <h1 className="color_green ">Contact me</h1>
           <div>
             <a
               href="mailto: preethigowda463@gmail.com"
