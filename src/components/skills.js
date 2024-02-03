@@ -6,7 +6,8 @@ import js_logo from "../assets/icons/js logo .jpeg";
 import react_logo from "../assets/icons/react.png";
 import redux_logo from "../assets/icons/redux logo .jpeg";
 import mi_logo from "../assets/icons/material ui logo.png";
-import responsive_logo from '../assets/icons/responsive-web-design-icon.jpeg'
+import responsive_logo from '../assets/icons/responsive-web-design-icon.jpeg';
+import tailwind_logo from "../assets/icons/tailwind css.png";
 const Skills = () => {
   const Skills_data = [
     {
@@ -48,6 +49,11 @@ const Skills = () => {
       id: 8,
       logo: redux_logo,
       skill: "Redux",
+    },
+    {
+      id: 9,
+      logo: tailwind_logo,
+      skill: "Tailwind Css",
     },
   ];
   return (

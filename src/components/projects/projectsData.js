@@ -5,26 +5,28 @@ import UI_design from '../../assets/img/responsive_ui_design.png';
 import QR_code from '../../assets/img/qr_code.jpeg.png';
 import material_ui from '../../assets/img/material UI.jpeg';
 import quizz_img from "../../assets/img/quiiz_img.png";
+import netflixGpt from "../../assets/img/netflixgpt.png"
 let ProjectsData = [
   {
-    id: 7,
-    image: material_ui,
-    title: "Social media UI design",
+    id: 8,
+    image: netflixGpt,
+    title: "NetflixGpt",
     technology_used: [
       {
         tech1: "HTML",
-        tech2: "CSS",
-        tech3: "Material Ui",
-        tech4:"REACT JS"
+        tech2: "Tailwind CSS",
+        tech3: "REACT JS",
+        tech4:"Redux Tool Kit"
       },
     ],
-    github_link: "https://github.com/preethigowdaB/react_with_material_ui",
-    demo:"",
+    github_link: "https://github.com/preethigowdaB/netflixgpt",
+    demo:"https://netflixgpt-eight.vercel.app",
     description:
       " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
   },
+ 
   {
-    id: 6,
+    id: 7,
     image: quizz_img,
     title: "Quizz App",
     technology_used: [
@@ -41,7 +43,7 @@ let ProjectsData = [
       " The Quiz App is a dynamic web application built with JavaScript, designed to engage users in an interactive and educational quiz experience. Users can test their knowledge across various topics through a series of questions presented in a user-friendly interface. ",
   },
   {
-    id: 5,
+    id: 6,
     image: QR_code,
     title: "QR code generator",
     technology_used: [
@@ -58,7 +60,7 @@ let ProjectsData = [
       " The QR Code Generator project is a web application developed using React.js that allows users to create QR codes easily. QR codes are two-dimensional barcodes that store data and can be quickly scanned using a QR code reader or a smartphone camera. This project provides a user-friendly interface for generating QR codes with custom information.",
   },
   {
-    id: 4,
+    id: 5,
     image: UI_design,
     title: "Responsive designs",
     technology_used: [
@@ -72,6 +74,23 @@ let ProjectsData = [
     demo:"https://responsive-design-iota.vercel.app/",
     description:
       " I developed a responsive web design that fluidly adjusts to different screen sizes. This includes optimizing layout, typography, and interactive elements for both small and large screens.",
+  },
+  {
+    id: 4,
+    image: material_ui,
+    title: "Social media UI design",
+    technology_used: [
+      {
+        tech1: "HTML",
+        tech2: "CSS",
+        tech3: "Material Ui",
+        tech4:"REACT JS"
+      },
+    ],
+    github_link: "https://github.com/preethigowdaB/react_with_material_ui",
+    demo:"",
+    description:
+      " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
   },
   {
     id: 3,
