@@ -107,12 +107,14 @@ const ContactForm = () => {
               required
               className="w-75 py-2  ps-2 rounded bg-dark my-3 border border-white text-white"
             ></textarea>
+            <div>
             <button
               type="submit"
               className="bg-warning px-5 py-2 text-white rounded fs_18 fw_500 border-0"
             >
               Submit
             </button>
+            </div>
           </form>
           {successMessage && (
             <p className="color_green fs_20 fw_500">{successMessage}</p>

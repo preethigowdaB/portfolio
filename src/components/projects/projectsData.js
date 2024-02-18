@@ -19,8 +19,8 @@ let ProjectsData = [
         tech4:"Redux Tool Kit"
       },
     ],
-    github_link: "https://github.com/preethigowdaB/netflixgpt",
-    demo:"https://netflixgpt-eight.vercel.app",
+    github_link: "https://github.com/preethigowdaB/hotflixgpt",
+    demo:"https://hotflixgpt.vercel.app/",
     description:
       " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
   },

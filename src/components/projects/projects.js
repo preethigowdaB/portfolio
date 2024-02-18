@@ -105,7 +105,7 @@ const Projects = () => {
           <button
             key={index}
             onClick={() => handlePageChange(index + 1)}
-            className={`btn ${
+            className={`btn rounded-circle fs_12 ${
               currentPage === index + 1 ? "btn-primary" : "btn-secondary"
             } mx-2`}
           >
