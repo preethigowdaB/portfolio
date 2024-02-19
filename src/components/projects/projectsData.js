@@ -10,7 +10,7 @@ let ProjectsData = [
   {
     id: 8,
     image: netflixGpt,
-    title: "NetflixGpt",
+    title: "HotflixGpt",
     technology_used: [
       {
         tech1: "HTML",
@@ -22,7 +22,7 @@ let ProjectsData = [
     github_link: "https://github.com/preethigowdaB/hotflixgpt",
     demo:"https://hotflixgpt.vercel.app/",
     description:
-      " Responsive UI design using Material-UI involves creating user interfaces that adapt and look good on various screen sizes and devices. Material-UI is a popular React UI framework that follows the principles of Google's Material Design. ",
+      " HotflixGPT is the ultimate movie streaming app that blends the power of `React.js` and `OpenAI GPT-3.5 turbo` APIs for an unmatched cinematic experience. Explore a vast `movie database` effortlessly, enjoy personalized suggestions, and revel in seamless navigation., HotflixGPT is your passport to a world of movies tailored just for you. Welcome to the future of movie-watching – welcome to HotflixGPT! 🍿🌟 ",
   },
  
   {
